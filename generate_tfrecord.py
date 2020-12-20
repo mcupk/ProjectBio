@@ -31,9 +31,10 @@ FLAGS = flags.FLAGS
 def class_text_to_int(row_label):
         if row_label == 'lumbar scoliosis':
             return 1
+        elif row_label == 'not lumbar scoliosis':
+            return 2
         else:
            return None
-
 
 def split(df, group):
     data = namedtuple('data', ['filename', 'object'])
