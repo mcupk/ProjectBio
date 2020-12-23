@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bio-image-mook</folder>
+	<filename>65.jpg</filename>
+	<path>D:\bio-image-mook\65.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>900</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>not lumbar scoliosis</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>271</xmin>
+			<ymin>194</ymin>
+			<xmax>400</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+</annotation>
